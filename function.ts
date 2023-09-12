@@ -35,4 +35,13 @@ let msg = (a:any, b:any) => console.log(a+b);
 
 msg(2,3);
 
+let dp = (x:any, y:any, a:any) =>{
+
+
+    return x+y-a;
+}
+
+let ans1 = dp(3,2,4);
+console.log(ans1);
+
   
