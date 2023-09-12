@@ -29,4 +29,10 @@ function multiply(a: number, b: number) {
     return dividend / divisor;
   }
 
+
+//Arrow function
+let msg = (a:any, b:any) => console.log(a+b);
+
+msg(2,3);
+
   
