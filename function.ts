@@ -44,4 +44,16 @@ let dp = (x:any, y:any, a:any) =>{
 let ans1 = dp(3,2,4);
 console.log(ans1);
 
-  
+interface Point{
+    x: number,
+    y: number
+}
+
+let drpnt = (point: Point) =>{
+    console.log(point.x-point.y);
+}
+
+drpnt({
+    x:1,
+    y:2
+})
