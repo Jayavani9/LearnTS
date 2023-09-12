@@ -22,3 +22,11 @@ var dp = function (x, y, a) {
 };
 var ans1 = dp(3, 2, 4);
 console.log(ans1);
+
+var drpnt = function (point) {
+    console.log(point.x - point.y);
+};
+drpnt({
+    x: 1,
+    y: 2
+});
